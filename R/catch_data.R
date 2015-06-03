@@ -22,6 +22,9 @@ catch_data <- function(dows,trace=TRUE,rich.out=FALSE){
 
   strt<-Sys.time()
 
+  # add leading zero if nchar 7
+  dows[nchar(dows) == 7] <- paste0('0', dows[nchar(dows) == 7])
+
   #create object for output
   fish.out<-vector('list',length(dows))
   names(fish.out)<-dows
