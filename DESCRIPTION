@@ -1,10 +1,12 @@
 Package: mndnrfish
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Get fisheries data from MNDNR lake finder website
 Version: 0.1
 Date: 2015-06-02
-Author: Your name goes here
-Maintainer: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Marcus W. Beck [aut, cre]
+Maintainer: Marcus W. Beck <mbafs2012@gmail.com>
+Description: Get fisheries catch data from MNDNR lake finder website
+License: CC0
 LazyData: TRUE
+Imports:
+  XML
